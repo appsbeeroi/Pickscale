@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23788" systemVersion="24F74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
+    <entity name="LevelRecord" representedClassName="LevelRecord" syncable="YES" codeGenerationType="class">
+        <attribute name="bestWeighingsUsed" optional="NO" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isSolved" optional="NO" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="lastPlayedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="levelKey" optional="YES" attributeType="String"/>
+        <attribute name="starsEarned" optional="NO" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="LevelDraft" representedClassName="LevelDraft" syncable="YES" codeGenerationType="class">
+        <attribute name="ledgerBlob" optional="YES" attributeType="Binary"/>
+        <attribute name="levelKey" optional="YES" attributeType="String"/>
+        <attribute name="movesRemaining" optional="NO" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="panLeft" optional="YES" attributeType="String"/>
+        <attribute name="panRight" optional="YES" attributeType="String"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="weighHistoryBlob" optional="YES" attributeType="Binary"/>
+    </entity>
+</model>

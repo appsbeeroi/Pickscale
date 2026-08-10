@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "icon_peck_order.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

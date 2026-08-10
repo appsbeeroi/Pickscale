@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "level_card_unlocked.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
