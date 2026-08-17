@@ -37,7 +37,7 @@ struct SettingsView: View {
         .navigationBarBackButtonHidden(true)
         .toolbar(.hidden, for: .navigationBar)
         .sheet(isPresented: $showPrivacy) {
-            PrivacyWebSheet(url: URL(string: "https://www.apple.com"))
+            PrivacyWebSheet(url: URL(string: "https://gornjeenfe.com/privacy/policy"))
         }
     }
 
